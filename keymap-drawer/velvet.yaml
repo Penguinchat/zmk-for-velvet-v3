@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: velvet}
 layers:
-  '0':
+  Qwer-Mac:
   - TAB
   - Q
   - W
@@ -12,20 +12,20 @@ layers:
   - I
   - O
   - P
-  - '['
-  - CAPS
+  - ''
+  - LEFT CONTROL
   - A
-  - S
-  - D
+  - {t: S, h: LEFT GUI}
+  - {t: D, h: LEFT SHIFT}
   - F
   - G
   - H
   - J
-  - K
-  - L
-  - ;
-  - ']'
-  - LSHFT
+  - {t: K, h: RIGHT SHIFT}
+  - {t: L, h: RIGHT GUI}
+  - {t: ;, h: ':'}
+  - RIGHT CONTROL
+  - CAPSLOCK
   - Z
   - X
   - C
@@ -33,111 +33,346 @@ layers:
   - B
   - N
   - M
-  - ','
-  - .
-  - /
-  - RSHFT
-  - KP ENTER
+  - {t: ',', h: <}
+  - {t: ., h: '>'}
+  - {t: /, h: '?'}
+  - RIGHT ALT
+  - {t: \, h: '|'}
+  - ''
+  - ''
+  - {t: ESC, h: Fun-Mac}
+  - {t: SPACE, h: Nav-Mac}
+  - {t: RETURN, h: Num}
+  - {t: BACKSPACE, h: Sym}
+  - ''
+  - ''
+  - {t: '''', h: '"'}
+  Nav-Mac:
+  - ''
+  - Gui+Q
+  - Gui+W
   - UP ARROW
-  - DOWN
-  - '1'
-  - SPACE
-  - BSPC
-  - {t: '2', h: toggle}
-  - LEFT
-  - RIGHT
-  - SPACE
-  '1':
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - '-'
-  - '='
+  - Gui+R
+  - Gui+T
+  - Gui+Y
+  - Gui+U
+  - PAGE UP
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - Gui+A
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - Gui+F
+  - Gui+H
+  - HOME
+  - PAGE DOWN
+  - END
+  - ''
+  - {t: ▽, type: trans}
+  - ''
+  - Gui+Z
+  - Gui+X
+  - Gui+C
+  - Gui+V
+  - Gui+B
+  - Gui+N
+  - Gui+M
+  - ''
+  - ''
+  - ''
+  - RIGHT ALT
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - DELETE
+  - ''
+  - ''
+  - ''
+  Fun-Mac:
+  - '&bootloader'
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
+  - F10
+  - F7
+  - F8
+  - F9
+  - ''
+  - '&bootloader'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - UP ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - LEFT GUI
+  - LEFT SHIFT
+  - ''
   - BT CLR
+  - F11
+  - F4
+  - F5
+  - F6
+  - ''
+  - {t: ▽, type: trans}
+  - LEFT ALT
+  - ''
+  - ''
+  - ''
+  - ''
   - BT CLR ALL
+  - F12
+  - F1
+  - F2
+  - F3
+  - ''
+  - {t: Qwer-Win, h: toggle}
+  - ''
+  - OUT BLE
+  - OUT USB
+  - {type: held}
+  - ''
+  - ''
+  - DELETE
+  - ''
+  - ''
+  - ''
+  Qwer-Win:
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - ''
+  - LEFT CONTROL
+  - A
+  - {t: S, h: LEFT CONTROL}
+  - {t: D, h: LEFT SHIFT}
+  - F
+  - G
+  - H
+  - J
+  - {t: K, h: RIGHT SHIFT}
+  - {t: L, h: RIGHT CONTROL}
+  - {t: ;, h: ':'}
+  - RIGHT CONTROL
+  - CAPSLOCK
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - {t: ',', h: <}
+  - {t: ., h: '>'}
+  - {t: /, h: '?'}
+  - RIGHT GUI
+  - {t: \, h: '|'}
+  - ''
+  - ''
+  - {t: ESC, h: Fun-Win}
+  - {t: SPACE, h: Nav-Win}
+  - {t: RETURN, h: Num}
+  - {t: BACKSPACE, h: Sym}
+  - ''
+  - ''
+  - {t: '''', h: '"'}
+  Nav-Win:
+  - ''
+  - Ctl+Q
+  - Ctl+W
+  - UP ARROW
+  - Ctl+R
+  - Ctl+T
+  - Ctl+Y
+  - Ctl+U
+  - PAGE UP
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+A
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
+  - Ctl+F
+  - Ctl+H
+  - HOME
+  - PAGE DOWN
+  - END
+  - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - Ctl+B
+  - Ctl+N
+  - Ctl+M
+  - ''
+  - ''
+  - ''
+  - RIGHT GUI
+  - ''
+  - ''
+  - ''
+  - ''
   - {type: held}
+  - ''
+  - DELETE
+  - ''
+  - ''
+  - ''
+  Fun-Win:
+  - '&bootloader'
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - F10
+  - F7
+  - F8
+  - F9
+  - ''
+  - '&bootloader'
   - {t: ▽, type: trans}
+  - ''
+  - LEFT CONTROL
+  - LEFT SHIFT
+  - ''
+  - BT CLR
+  - F11
+  - F4
+  - F5
+  - F6
+  - ''
   - {t: ▽, type: trans}
+  - LEFT GUI
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT CLR ALL
+  - F12
+  - F1
+  - F2
+  - F3
+  - ''
+  - {t: Qwer-Mac, h: toggle}
+  - ''
+  - OUT BLE
+  - OUT USB
+  - {type: held}
+  - ''
+  - ''
+  - DELETE
+  - ''
+  - ''
+  - ''
+  Num:
+  - ''
+  - ''
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - ''
+  - '&tap2_macro LESS_THAN MINUS'
+  - '&tap2_macro MINUS GREATER_THAN'
+  - '&tap2_macro EQUAL GREATER_THAN'
+  - ''
+  - ''
   - {t: ▽, type: trans}
+  - ''
+  - '4'
+  - '5'
+  - '6'
+  - '-'
+  - ''
+  - '&tap2_macro LESS_THAN EQUAL'
+  - '&tap2_macro GREATER_THAN EQUAL'
+  - '&tap2_macro EXCL EQUAL'
+  - ''
   - {t: ▽, type: trans}
+  - ''
+  - ''
+  - '1'
+  - '2'
+  - '3'
+  - '='
+  - ''
+  - ''
+  - '&tap2_macro PLUS EQUAL'
+  - '&tap2_macro MINUS EQUAL'
+  - ''
+  - ''
+  - '`'
+  - ''
+  - ''
+  - '['
+  - ']'
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  Sym:
+  - ''
+  - ''
+  - '&'
+  - '*'
+  - (
+  - )
+  - ''
+  - '&tap2_macro LESS_THAN MINUS'
+  - '&tap2_macro MINUS GREATER_THAN'
+  - '&tap2_macro EQUAL GREATER_THAN'
+  - ''
+  - ''
   - {t: ▽, type: trans}
+  - ''
+  - $
+  - '%'
+  - ^
+  - _
+  - ''
+  - '&tap2_macro LESS_THAN EQUAL'
+  - '&tap2_macro GREATER_THAN EQUAL'
+  - '&tap2_macro EXCL EQUAL'
+  - ''
   - {t: ▽, type: trans}
-  '2':
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp LCLK'
-  - '&mmv MOVE_UP'
-  - '&mkp RCLK'
-  - '&msc SCRL_UP'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_RIGHT'
-  - '&msc SCRL_DOWN'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - '!'
+  - '@'
+  - '#'
+  - +
+  - ''
+  - ''
+  - '&tap2_macro PLUS EQUAL'
+  - '&tap2_macro MINUS EQUAL'
+  - ''
+  - ''
+  - '~'
+  - ''
+  - ''
+  - '{'
+  - '}'
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
