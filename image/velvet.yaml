@@ -13,19 +13,19 @@ layers:
   - O
   - P
   - $$mdi:apple-keyboard-caps$$
-  - LEFT CONTROL
+  - LCTRL
   - A
-  - {t: S, h: LEFT ALT}
-  - {t: D, h: LEFT SHIFT}
+  - {t: S, h: LALT}
+  - {t: D, h: LSFT}
   - F
   - G
   - H
   - J
-  - {t: K, h: RIGHT SHIFT}
-  - {t: L, h: RIGHT ALT}
+  - {t: K, h: RSFT}
+  - {t: L, h: RALT}
   - {t: ;, h: ':', s: ':'}
-  - RIGHT CONTROL
-  - LEFT GUI
+  - RCTRL
+  - LGUI
   - Z
   - X
   - C
@@ -36,7 +36,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, h: '?', s: '?'}
-  - RIGHT GUI
+  - RGUI
   - {t: \, h: Nav, s: '|'}
   - {type: none}
   - {type: none}
@@ -60,19 +60,19 @@ layers:
   - O
   - P
   - $$mdi:apple-keyboard-caps$$
-  - LEFT CONTROL
+  - LCTRL
   - A
-  - {t: S, h: LEFT ALT}
-  - {t: D, h: LEFT SHIFT}
+  - {t: S, h: LALT}
+  - {t: D, h: LSFT}
   - F
   - G
   - H
   - J
-  - {t: K, h: RIGHT SHIFT}
-  - {t: L, h: RIGHT ALT}
+  - {t: K, h: RSFT}
+  - {t: L, h: RALT}
   - {t: ;, h: ':', s: ':'}
-  - RIGHT CONTROL
-  - LEFT GUI
+  - RCTRL
+  - LGUI
   - Z
   - X
   - C
@@ -83,7 +83,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, h: '?', s: '?'}
-  - RIGHT GUI
+  - RGUI
   - {t: \, h: Nav, s: '|'}
   - {type: none}
   - {type: none}
@@ -109,8 +109,8 @@ layers:
   - $$mdi:download-circle$$
   - {t: ▽, type: trans}
   - {type: none}
-  - LEFT ALT
-  - LEFT SHIFT
+  - LALT
+  - LSFT
   - {type: none}
   - {type: none}
   - F11
@@ -209,8 +209,8 @@ layers:
   - {t: '-', s: _}
   - <=
   - '>='
-  - RIGHT SHIFT
-  - RIGHT ALT
+  - RSFT
+  - RALT
   - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -256,8 +256,8 @@ layers:
   - _
   - <=
   - '>='
-  - RIGHT SHIFT
-  - RIGHT ALT
+  - RSFT
+  - RALT
   - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -303,8 +303,8 @@ layers:
   - Alt+G
   - Alt+H
   - {type: none}
-  - RIGHT SHIFT
-  - RIGHT ALT
+  - RSFT
+  - RALT
   - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -350,8 +350,8 @@ layers:
   - Ctl+G
   - Ctl+H
   - {type: none}
-  - RIGHT SHIFT
-  - RIGHT ALT
+  - RSFT
+  - RALT
   - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
