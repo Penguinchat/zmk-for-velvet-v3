@@ -35,14 +35,6 @@ draw_config:
   glyph_hold_size: 15
   glyph_shifted_size: 15
   glyphs:
-    mdi:apple-keyboard-command: |
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>apple-keyboard-command</title><path d="M6,2A4,4 0 0,1 10,6V8H14V6A4,4 0 0,1 18,2A4,4 0 0,1 22,6A4,4 0 0,1 18,10H16V14H18A4,4 0 0,1 22,18A4,4 0 0,1 18,22A4,4 0 0,1 14,18V16H10V18A4,4 0 0,1 6,22A4,4 0 0,1 2,18A4,4 0 0,1 6,14H8V10H6A4,4 0 0,1 2,6A4,4 0 0,1 6,2M16,18A2,2 0 0,0 18,20A2,2 0 0,0 20,18A2,2 0 0,0 18,16H16V18M14,10H10V14H14V10M6,16A2,2 0 0,0 4,18A2,2 0 0,0 6,20A2,2 0 0,0 8,18V16H6M8,6A2,2 0 0,0 6,4A2,2 0 0,0 4,6A2,2 0 0,0 6,8H8V6M18,8A2,2 0 0,0 20,6A2,2 0 0,0 18,4A2,2 0 0,0 16,6V8H18Z" /></svg>
-    mdi:apple-keyboard-shift: |
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>apple-keyboard-shift</title><path d="M15,18V12H17.17L12,6.83L6.83,12H9V18H15M12,4L22,14H17V20H7V14H2L12,4Z" /></svg>
-    mdi:apple-keyboard-control: |
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>apple-keyboard-control</title><path d="M19.78,11.78L18.36,13.19L12,6.83L5.64,13.19L4.22,11.78L12,4L19.78,11.78Z" /></svg>
-    mdi:apple-keyboard-option: |
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>apple-keyboard-option</title><path d="M3,4H9.11L16.15,18H21V20H14.88L7.84,6H3V4M14,4H21V6H14V4Z" /></svg>
     mdi:backspace-outline: |
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>backspace-outline</title><path d="M19,15.59L17.59,17L14,13.41L10.41,17L9,15.59L12.59,12L9,8.41L10.41,7L14,10.59L17.59,7L19,8.41L15.41,12L19,15.59M22,3A2,2 0 0,1 24,5V19A2,2 0 0,1 22,21H7C6.31,21 5.77,20.64 5.41,20.11L0,12L5.41,3.88C5.77,3.35 6.31,3 7,3H22M22,5H7L2.28,12L7,19H22V5Z" /></svg>
     mdi:keyboard-tab: |
@@ -126,41 +118,6 @@ parse_config:
   sticky_label: $$mdi:gesture-tap-hold$$
   toggle_label: "to"
   raw_binding_map:
-    # Home-row-mods
-    "&hml LEFT_ALT A":
-      tap: "A"
-      hold: $$mdi:apple-keyboard-option$$
-    "&hml LEFT_GUI S":
-      tap: "S"
-      hold: $$mdi:apple-keyboard-command$$
-    "&hml LEFT_CONTROL D":
-      tap: "D"
-      hold: $$mdi:apple-keyboard-control$$
-    "&hml LEFT_SHIFT F":
-      tap: "F"
-      hold: $$mdi:apple-keyboard-shift$$
-    "&hmr RIGHT_SHIFT J":
-      tap: "J"
-      hold: $$mdi:apple-keyboard-shift$$
-    "&hmr RIGHT_CONTROL K":
-      tap: "K"
-      hold: $$mdi:apple-keyboard-control$$
-    "&hmr RIGHT_GUI L":
-      tap: "L"
-      hold: $$mdi:apple-keyboard-command$$
-    "&hmr RIGHT_ALT SEMI":
-      shifted: ":"
-      tap: ";"
-      hold: $$mdi:apple-keyboard-option$$
-    "&hml LEFT_GUI LEFT_ARROW":
-      tap: $$mdi:arrow-left$$
-      hold: $$mdi:apple-keyboard-command$$
-    "&hml LEFT_CONTROL UP_ARROW":
-      tap: $$mdi:arrow-up$$
-      hold: $$mdi:apple-keyboard-control$$
-    "&hml LEFT_SHIFT RIGHT_ARROW":
-      tap: $$mdi:arrow-right$$
-      hold: $$mdi:apple-keyboard-shift$$
     "&tap2_macro LESS_THAN MINUS":
       tap: "<-"
     "&tap2_macro MINUS GREATER_THAN":
@@ -486,31 +443,6 @@ parse_config:
     # Navigations
     PAGE_UP: PgUp
     PAGE_DOWN: PgDn
-    # Shift
-    LSHFT: $$mdi:apple-keyboard-shift$$
-    LSHIFT: $$mdi:apple-keyboard-shift$$
-    LEFT_SHIFT: $$mdi:apple-keyboard-shift$$
-    RSHFT: $$mdi:apple-keyboard-shift$$
-    RSHIFT: $$mdi:apple-keyboard-shift$$
-    RIGHT_SHIFT: $$mdi:apple-keyboard-shift$$
-    # Control
-    LCTRL: $$mdi:apple-keyboard-control$$
-    LEFT_CONTROL: $$mdi:apple-keyboard-control$$
-    RCTRL: $$mdi:apple-keyboard-control$$
-    RIGHT_CONTROL: $$mdi:apple-keyboard-control$$
-    LALT: $$mdi:apple-keyboard-option$$
-    LEFT_ALT: $$mdi:apple-keyboard-option$$
-    RALT: $$mdi:apple-keyboard-option$$
-    RIGHT_ALT: $$mdi:apple-keyboard-option$$
-    # Command
-    LCMD: $$mdi:apple-keyboard-command$$
-    LG: $$mdi:apple-keyboard-command$$
-    LEFT_GUI: $$mdi:apple-keyboard-command$$
-    LEFT_COMMAND: $$mdi:apple-keyboard-command$$
-    RCMD: $$mdi:apple-keyboard-command$$
-    RG: $$mdi:apple-keyboard-command$$
-    RIGHT_GUI: $$mdi:apple-keyboard-command$$
-    RIGHT_COMMAND: $$mdi:apple-keyboard-command$$
     # Capslock
     CAPSLOCK: $$mdi:apple-keyboard-caps$$
     CAPS: $$mdi:apple-keyboard-caps$$
