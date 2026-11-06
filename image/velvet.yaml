@@ -13,19 +13,19 @@ layers:
   - O
   - P
   - $$mdi:apple-keyboard-caps$$
-  - $$mdi:apple-keyboard-control$$
+  - LEFT CONTROL
   - A
-  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: S, h: LEFT ALT}
+  - {t: D, h: LEFT SHIFT}
   - F
   - G
   - H
   - J
-  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: K, h: RIGHT SHIFT}
+  - {t: L, h: RIGHT ALT}
   - {t: ;, h: ':', s: ':'}
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-command$$
+  - RIGHT CONTROL
+  - LEFT GUI
   - Z
   - X
   - C
@@ -36,7 +36,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, h: '?', s: '?'}
-  - $$mdi:apple-keyboard-command$$
+  - RIGHT GUI
   - {t: \, h: Nav, s: '|'}
   - {type: none}
   - {type: none}
@@ -60,19 +60,19 @@ layers:
   - O
   - P
   - $$mdi:apple-keyboard-caps$$
-  - $$mdi:apple-keyboard-control$$
+  - LEFT CONTROL
   - A
-  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: S, h: LEFT ALT}
+  - {t: D, h: LEFT SHIFT}
   - F
   - G
   - H
   - J
-  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: K, h: RIGHT SHIFT}
+  - {t: L, h: RIGHT ALT}
   - {t: ;, h: ':', s: ':'}
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-command$$
+  - RIGHT CONTROL
+  - LEFT GUI
   - Z
   - X
   - C
@@ -83,7 +83,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, h: '?', s: '?'}
-  - $$mdi:apple-keyboard-command$$
+  - RIGHT GUI
   - {t: \, h: Nav, s: '|'}
   - {type: none}
   - {type: none}
@@ -109,8 +109,8 @@ layers:
   - $$mdi:download-circle$$
   - {t: ▽, type: trans}
   - {type: none}
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-shift$$
+  - LEFT ALT
+  - LEFT SHIFT
   - {type: none}
   - {type: none}
   - F11
@@ -209,8 +209,8 @@ layers:
   - {t: '-', s: _}
   - <=
   - '>='
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-option$$
+  - RIGHT SHIFT
+  - RIGHT ALT
   - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -256,8 +256,8 @@ layers:
   - _
   - <=
   - '>='
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-option$$
+  - RIGHT SHIFT
+  - RIGHT ALT
   - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -303,8 +303,8 @@ layers:
   - Alt+G
   - Alt+H
   - {type: none}
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-option$$
+  - RIGHT SHIFT
+  - RIGHT ALT
   - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -350,8 +350,8 @@ layers:
   - Ctl+G
   - Ctl+H
   - {type: none}
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-option$$
+  - RIGHT SHIFT
+  - RIGHT ALT
   - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
