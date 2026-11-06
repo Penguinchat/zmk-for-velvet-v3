@@ -16,12 +16,12 @@ layers:
   - LCTRL
   - A
   - {t: S, h: LALT}
-  - {t: D, h: LSFT}
+  - {t: D, h: LSHFT}
   - F
   - G
   - H
   - J
-  - {t: K, h: RSFT}
+  - {t: K, h: RSHFT}
   - {t: L, h: RALT}
   - {t: ;, h: ':', s: ':'}
   - RCTRL
@@ -63,12 +63,12 @@ layers:
   - LCTRL
   - A
   - {t: S, h: LALT}
-  - {t: D, h: LSFT}
+  - {t: D, h: LSHFT}
   - F
   - G
   - H
   - J
-  - {t: K, h: RSFT}
+  - {t: K, h: RSHFT}
   - {t: L, h: RALT}
   - {t: ;, h: ':', s: ':'}
   - RCTRL
@@ -110,7 +110,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: none}
   - LALT
-  - LSFT
+  - LSHFT
   - {type: none}
   - {type: none}
   - F11
@@ -209,7 +209,7 @@ layers:
   - {t: '-', s: _}
   - <=
   - '>='
-  - RSFT
+  - RSHFT
   - RALT
   - {type: none}
   - {t: ▽, type: trans}
@@ -256,7 +256,7 @@ layers:
   - _
   - <=
   - '>='
-  - RSFT
+  - RSHFT
   - RALT
   - {type: none}
   - {t: ▽, type: trans}
@@ -303,7 +303,7 @@ layers:
   - Alt+G
   - Alt+H
   - {type: none}
-  - RSFT
+  - RSHFT
   - RALT
   - {type: none}
   - {t: ▽, type: trans}
@@ -350,7 +350,7 @@ layers:
   - Ctl+G
   - Ctl+H
   - {type: none}
-  - RSFT
+  - RSHFT
   - RALT
   - {type: none}
   - {t: ▽, type: trans}
