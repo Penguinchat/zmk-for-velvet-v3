@@ -443,6 +443,29 @@ parse_config:
     # Navigations
     PAGE_UP: PgUp
     PAGE_DOWN: PgDn
+    # Modifiers
+    LCTRL: LCTRL
+    LEFT_CONTROL: LCTRL
+    RCTRL: RCTRL
+    RIGHT_CONTROL: RCTRL
+    LALT: LALT
+    LEFT_ALT: LALT
+    RALT: RALT
+    RIGHT_ALT: RALT
+    LSFT: LSFT
+    LSHIFT: LSFT
+    LEFT_SHIFT: LSFT
+    RSFT: RSFT
+    RSHIFT: RSFT
+    RIGHT_SHIFT: RSFT
+    LGUI: LGUI
+    LCMD: LGUI
+    LEFT_GUI: LGUI
+    LEFT_COMMAND: LGUI
+    RGUI: RGUI
+    RCMD: RGUI
+    RIGHT_GUI: RGUI
+    RIGHT_COMMAND: RGUI
     # Capslock
     CAPSLOCK: $$mdi:apple-keyboard-caps$$
     CAPS: $$mdi:apple-keyboard-caps$$
